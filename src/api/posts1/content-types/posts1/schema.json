@@ -29,6 +29,16 @@
       "relation": "oneToMany",
       "target": "api::comments1.comments1",
       "mappedBy": "post"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
